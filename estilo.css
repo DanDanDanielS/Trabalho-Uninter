@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(85, 243, 248, 0.678);
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(35, 2, 224);
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    background: black;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: fit-content;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356);
+}
+p{
+    font-size: 20px;
+    justify-content: baseline;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    padding: 15PX;
+    max-width: fit-content;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356)
+}
+input{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+li{
+    margin-bottom: 45px;
+    font-size: 30px;
+    font-style: italic;
+}
+.jogando{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;        
+}
+.jogando img{
+    height: auto;
+    width: 550px;
+    border-radius: 15%;  
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356)
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+
+}
+table{
+    font-size: 20px;
+    font-family: fantasy;
+    border-spacing: 5px;
+    border-color: rgba(255, 196, 118, 0);
+}
+td{
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356)
+}
+.país1{
+    color: rgb(248, 2, 2);
+    background-color: white;
+    border-color: black;
+}
+.país2{
+    color: white;
+    background-color: rgb(8, 16, 133);
+    border-color: white
+}
+.país3{
+    color: blue;
+    background-color: crimson;
+    border-color: white
+}
+.subtítulo{
+    font-size: 35px;
+    color: white;
+    background-color: black;
+    max-width: fit-content;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356)
+}
